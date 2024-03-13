@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ 
+<head>
+  <meta charset="utf-8">
+  <title> Calculator</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+ 
+<body>
+ <center>
+<table class="calculator" >
+  <h1 >CALCUALTOR</h1>
+  <tr>
+    <td colspan="3"> <input class="abc-box" type="text" id="result" disabled /> </td>
+ 
+  
+    <td style="padding-left:10px ;"> <input type="button" value="C"  onclick="clearr()" id="btn" /> </td>
+  </tr>
+  <tr>
+  
+    <td> <input type="button" value="1" onclick="abc('1')" /> </td>
+    <td> <input type="button" value="2" onclick="abc('2')" /> </td>
+    <td> <input type="button" value="3" onclick="abc('3')" /> </td>
+    <td> <input type="button" value="/" onclick="abc('/')" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="4" onclick="abc('4')" /> </td>
+    <td> <input type="button" value="5" onclick="abc('5')" /> </td>
+    <td> <input type="button" value="6" onclick="abc('6')" /> </td>
+    <td> <input type="button" value="-" onclick="abc('-')" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="7" onclick="abc('7')" /> </td>
+    <td> <input type="button" value="8" onclick="abc('8')" /> </td>
+    <td> <input type="button" value="9" onclick="abc('9')" /> </td>
+    <td> <input type="button" value="+" onclick="abc('+')" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="." onclick="abc('.')" /> </td>
+    <td> <input type="button" value="0" onclick="abc('0')" /> </td>
+    <td> <input type="button" value="=" onclick="calculator()" id="btn" /> </td>
+    <td> <input type="button" value="*" onclick="abc('*')" /> </td>
+  </tr>
+</table>
+</center>
+<script type="text/javascript" src="app.js"></script>
+ 
+</body>
+ 
+</html>
